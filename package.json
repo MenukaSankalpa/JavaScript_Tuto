@@ -1,0 +1,22 @@
+{
+  "name": "javascript_tuto",
+  "version": "1.0.0",
+  "description": "JavaScript showcasing concepts like variables, data types, functions, loops, arrays, objects, DOM manipulation, events, async programming (fetch API), error handling, and ES6+ features like promises, classes, and modules.",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MenukaSankalpa/JavaScript_Tuto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MenukaSankalpa/JavaScript_Tuto/issues"
+  },
+  "homepage": "https://github.com/MenukaSankalpa/JavaScript_Tuto#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
