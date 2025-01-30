@@ -108,8 +108,8 @@ const transpose = (reels) => {
 const printRows = (rows) => {
   for (const row of rows) {
     let rowString = "";
-    for (const [i, symbol] of rows.entries()) {
-      rowString += symbol;
+    for (let i = 0; i < row.length; i++) {
+      rowString += row[i];
       if (i != row.length - 1) {
         rowString += " | ";
       }
@@ -134,9 +134,8 @@ const getWinnings = (rows, bet, lines) => {
     if (allSame) {
       winnings += bet * SYMBOLS_VALUES[symbols[0]];
     }
-
-    return winnings;
   }
+  return winnings;
 };
 
 let balance = deposit();
