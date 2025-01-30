@@ -6,4 +6,18 @@
 // 6. give the user their winnings
 // 7. play agin  
 
- 
+//function deposit() {
+//  return  
+//
+//}
+//deposit() this equl to const 
+
+
+const prompt = require("prompt-sync")();
+
+const deposit = () => {
+  const depositAmount = prompt("Enter a deposit amount: ");
+
+};
+
+deposit();
